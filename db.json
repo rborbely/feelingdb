@@ -1,0 +1,123 @@
+[
+  {
+    "id": "desire",
+    "title": "Vágyódás",
+    "theme": "sunset",
+    "steps": [
+      {
+        "prompt": "Mire vágytál igazán?",
+        "type": "input",
+        "freeInput": true,
+        "response": "Az, amit keresel, talán mindig is ott volt benned.",
+        "media": {
+          "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b",
+          "audio": "https://freesound.org/data/previews/341/341695_5260877-lq.mp3"
+        }
+      },
+      {
+        "prompt": "Mikor érezted ezt legutóbb igazán?",
+        "type": "input",
+        "freeInput": true,
+        "response": "A nyár emlékei nem halványulnak, csak csendesednek.",
+        "media": {
+          "image": "https://images.unsplash.com/photo-1465884154800-cffcc0a2aef1",
+          "audio": "https://freesound.org/data/previews/154/154653_2631738-lq.mp3"
+        }
+      },
+      {
+        "prompt": "Írd le egy szóval, amit most érzel.",
+        "type": "input",
+        "freeInput": true,
+        "response": "A vágy néha nem célt, csak mozdulatot keres."
+      },
+      {
+        "prompt": "Ha ez a dallam visszahoz valamit",
+        "type": "info",
+        "response": "https://www.youtube.com/watch?v=8nGFWWJLH2Q"
+      }
+    ]
+  },
+  {
+    "id": "lostness",
+    "title": "Elveszettség",
+    "theme": "fog",
+    "steps": [
+      {
+        "prompt": "Hol maradtál el önmagadtól?",
+        "type": "input",
+        "freeInput": true,
+        "response": "A túl sok irány is egyfajta megdermedés.",
+        "media": {
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+          "audio": "https://freesound.org/data/previews/447/447970_885967-lq.mp3"
+        }
+      },
+      {
+        "prompt": "Mit kerestél abban a pillanatban?",
+        "type": "input",
+        "freeInput": true,
+        "response": "A biztos dolgok gyakran csendesek – és nehezen észrevehetők."
+      },
+      {
+        "prompt": "Írd le, mit szeretnél most hallani.",
+        "type": "input",
+        "freeInput": true,
+        "response": "Nem vagy."
+      },
+      {
+        "prompt": "Zárás",
+        "type": "info",
+        "response": "Talán csak pár lépés hiányzik. Köszönöm, hogy itt voltál."
+      }
+    ]
+  },
+  {
+    "id": "disillusionment",
+    "title": "Kiábrándultság",
+    "theme": "decay",
+    "steps": [
+      {
+        "prompt": "Mi tört meg benned?",
+        "type": "input",
+        "freeInput": true,
+        "response": "Ha valami túl sokszor történik, már nem hat, csak húz vissza.",
+        "media": {
+          "image": "https://images.unsplash.com/photo-1536246616864-44d8b1fd59bc"
+        }
+      },
+      {
+        "prompt": "Mit reméltél, ami nem történt meg?",
+        "type": "input",
+        "freeInput": true,
+        "response": "Az elmaradt szavak néha hangosabbak, mint a kimondottak."
+      },
+      {
+        "prompt": "Milyen képet választanál most?",
+        "type": "choice",
+        "options": [
+          {
+            "label": "Üres szoba",
+            "image": "https://images.unsplash.com/photo-1558114965-c06acb4a28c7"
+          },
+          {
+            "label": "Kavargó víz",
+            "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+          },
+          {
+            "label": "Repedezett fal",
+            "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+          }
+        ],
+        "response": "Néha az zavaros, ami a legtisztább érzéseket hordozza.",
+        "media": {
+          "audio": "https://freesound.org/data/previews/620/620298_11552707-lq.mp3"
+        }
+      },
+      {
+        "prompt": "Ha szeretnél alkotni ebből",
+        "type": "info",
+        "response": "https://padlet.com/"
+      }
+    ]
+  }
+]
